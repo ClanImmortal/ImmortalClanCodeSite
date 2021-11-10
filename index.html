@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Immortal Clan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/6b5e86a277.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="main.css">
+<!--Page Tab Icon-->
+<link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+    <a href="#services" class="w3-bar-item w3-button w3-hide-small"><i class="fas fa-coins"></i> SERVICES</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fab fa-discord"></i> CONTACT</a>
+    <!--<a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
+    <i class="fa fa-search"></i>-->
+    </a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#services" class="w3-bar-item w3-button" onclick="toggleFunction()">SERVICES</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <!--<a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
+  </div>
+</div>
+
+<!-- First Parallax Image with Logo Text -->
+<div class="bgimg-1 w3-display-container" id="home">
+  <div class="w3-display-middle" style="white-space:nowrap;">
+    <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">IMMORTAL CLAN
+  </div>
+</div>
+
+<!-- Container (About Section) -->
+<div class="w3-content w3-container w3-padding-64" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p>Ninja.io is a fun game where you level up, accumulate gold, and make friends. <b>Immortal Clan</b> allows you to achieve this much more easily!</p>
+  <p><b>To find out more about how this works, scroll below or click "Services".</b></p>
+  <p>We're a <b>ninja.io</b> clan with over 100 active members, with many veterans, and still growing. Inflated clan numbers are due to name storage for sale. We provide <b>information services</b> and <b>training for new players</b>, we <b>trade and sell rare names</b>, and
+  <b>ensure that 1-v-1 duel bets for gold between fighters and spectators in-game are trusted</b>.</p>
+  <p>Finally, you can expect <b>FREE clan events and private servers</b> for clan members from time-to-time. We may also open up free public servers or events for the general player community in-game.</p>
+  <div class="w3-row">
+    <div class="w3-col m6 w3-center w3-padding-large">
+      <p><b><i class="fa fa-user w3-margin-right"></i>AlwaysImproving</b></p>
+      <img src="./images/clanleader.png" class="w3-round w3-image" alt="Photo of Me" width="180" height="130"></br>
+    </div>
+
+    <!-- Hide this text on small devices -->
+    <div class="w3-col m6 w3-hide-small w3-padding-large">
+      <p>I'm the <b>clan owner and leader</b> of <b>Immortals.</b></p>
+      <p>Our clan has been established for over a month and I've been playing this game for several months. However, I've played the game even before owning this account.</p> 
+      <p>My dream is to see this game grow beyond just a pvp .io game. I want to build a strong and trusted community with tons of events and opportunities in-game.</p>
+      <p><b>Feel free to add, dm me, or <a href="https://discord.gg/93J2WzhWK6" target="_blank" style="color: blue;">join our discord server</a> to chat!</b></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">400+</span><br>
+    Members
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">100+</span><br>
+    Active Members
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">5+</span><br>
+    Free Servers
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge">1000+</span><br>
+    Gold Trade Amount
+  </div>
+</div>
+
+<!-- Second Parallax Image with Services Text -->
+<div class="bgimg-2 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide" style="font-weight: 900;">Services</span>
+  </div>
+</div>
+
+<!-- Container (Services Section) -->
+<div class="w3-content w3-container w3-padding-64" id="services">
+  <h3 class="w3-center">OUR SERVICES</h3>
+  <p>As previously mentioned, we provide <b>information services</b> and <b>training for new players</b>, we <b>trade and sell rare names</b>, and
+  <b>ensure that 1-v-1 duel bets for gold between fighters and spectators in-game are trusted</b>.</p>
+  <p><b>Information Services:</b> For beginners, for the price of <em>250 gold</em>, you get an information package of all the in-game tricks to level up fast, easter eggs, and advice on game controls summarized and shown in less than 10 minutes.
+  You will also recieve a BONUS complementary text document with this information. </p>
+  <p><b>Training for New Players:</b> For beginners, for the price of <em>300 gold</em>, you get an experienced player showing you how to use each weapon, their own weapon experise, and more advanced in-game tricks. 
+  You will also recieve a BONUS complementary text document with this information.</p>
+  <p><b>Trading and Selling Rare Names:</b> For the price of 1950 gold, a rare name will be opened up for you to take. <em>Note: 1000 of this gold will be spent on changing the original owner's name.</em> Make sure to have an account that can recieve this name immediately.</p>
+  <p><b>Duel Betting:</b> Players who duel 1-v-1 can ask us to open up a private server for them and moderate and hold their gold for a bet. The maximum bet per player can only be 5k gold (since alts need to be used to hold the gold). 
+    Spectators can also join the private server and make their bets for a maximum of 1k gold each. The moderator of the bet will keep 10% from spectator winnings, and 15% from the player winnings. Private servers for the bet will be free
+if the total bets are equal to 5k gold or above. Otherwise, they must be paid for by the player duelers.</p>
+
+<p><b>Note: Make sure to check the rules section of our discord for official names of our trusted traders and trainers. DO NOT trade with non-official traders. Otherwise, it's at your own risk.</b></p>
+
+  <p class="w3-center"><em>Here are some examples of our work and/or what it would look like.<br> Click on the images to make them bigger!</em></p><br>
+
+  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+  <div class="w3-row-padding w3-center">
+    <div class="w3-col m6">
+      <img src="./images/immortalgallery4.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Information Services (250 gold)">
+    </div>
+
+    <div class="w3-col m6">
+      <img src="./images/immortalgallery3.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Training for New Players (300 gold)">
+    </div>
+</div>
+</br>
+<div class="w3-row-padding w3-center">
+    <div class="w3-col m6">
+      <img src="./images/immortalgallery2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Trading and Selling Rare Names (1950 gold)">
+    </div>
+
+    <div class="w3-col m6">
+      <img src="./images/immortalgallery.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Duel Betting (5000 gold max per bet)">
+    <!--<button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>-->
+  </div>
+</div>
+</div>
+
+<!-- Modal for full size images on click-->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Third Parallax Image with Services Text -->
+<div class="bgimg-3 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+     <span class="w3-xxlarge w3-text-white w3-wide" style="font-weight: 900;">CONTACT</span>
+  </div>
+</div>
+
+<!-- Container (Contact Section) -->
+<div class="w3-content w3-container w3-padding-64" id="contact">
+  <h3 class="w3-center">WHERE TO FIND US</h3>
+  <p class="w3-center"><em>Reach out to us on Discord or In-Game!</em></p>
+  <p class="w3-center">Now have a nice cup of <i class="fa fa-coffee"></i>.</p>
+  <p class="w3-center">It's time to become immortal!</p>
+
+  <div class="w3-row w3-padding-32 w3-section">
+    <div class="w3-col m4 w3-container">
+      <img src="./images/contactimmortal.png" class="w3-image w3-round" style="width:100%">
+    </div>
+    <div class="w3-col m8 w3-panel">
+      <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> In-Game: <a href="https://ninja.io/" target="_blank" style="color: blue;">Ninja.io</a></i></br></br>
+        <i class="fab fa-discord fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Discord: <a href="https://discord.gg/93J2WzhWK6" target="_blank" style="color: blue;">Join Immortal Clan Discord</a></i></br></br>
+        <i class="fas fa-crown fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Clan Leader: AlwaysImproving<br></br>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <!--
+  <div class="w3-xlarge w3-section">
+    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+  </div>
+-->
+<div class="w3-xlarge w3-section">
+    <a href="https://discord.gg/93J2WzhWK6" target="_blank"><i class="fab fa-discord w3-hover-opacity"></i></a>
+  </div>
+  <p>Immortal Clan &copy; <script>
+    document.write(new Date().getFullYear())
+</script>
+</p>
+</footer>
+ 
+<script>
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+        navbar.style = "color: white;"
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>
